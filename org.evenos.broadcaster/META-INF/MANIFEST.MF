@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KBS Plugin : Evenos Broadcaster Dashboard Panel
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.evenos.broadcaster;singleton:=true
+Bundle-Version: 7.1.0.qualifier
+Bundle-Vendor: KBS
+Fragment-Host: org.adempiere.ui.zk;bundle-version="0.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.adempiere.webui.dashboard
+Bundle-ClassPath: .,
+ zul/
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.evenos.broadcaster
